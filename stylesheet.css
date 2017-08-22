@@ -1,0 +1,101 @@
+html, body {
+  margin: 0;
+  font-family: helvetica;
+  font-weight: normal;
+  font-style: normal
+}
+
+a:link {
+  font-family: Lato, sans-serif;
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  font-family: Lato, sans-serif;
+  color: white;
+  text-decoration: none
+}
+
+a:visited {
+  font-family: Lato, sans-serif;
+  color: black;
+  text-decoration: none
+}
+
+.wrapper {
+  /*display: flex;
+  flex-direction: column;*/
+}
+
+.container {
+  display: flex;
+}
+
+.child {
+  width: 100%;  /* Or whatever */*/
+  /*height: 100px; /* Or whatever */*/
+  margin: auto;  /* Magic! */
+  border: 1px solid black;
+
+  /*box-sizing: border-box;*/
+  text-align: center;
+}
+
+header.main {
+  background: hotpink;
+  height: 80px;
+}
+
+.content {
+  /*flex: 1;*/
+  overflow: auto;
+  background: white;
+  text: black;
+}
+
+.roundimg {
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.ix_header {
+  height: 55%;
+  width: 20%;
+}
+
+.menu {
+  text-align: right;
+  font-family: Lato, sans-serif;
+  font-size: 12px;
+
+}
+
+.left, .middle, .right {
+  display: inline-block;
+  display: inline;
+  zoom: 1;
+  vertical-align: 0;
+  top; font-size: 12px;
+}
+
+.left {
+  width: 33%;
+  background: blue;
+}
+
+.middle {
+  width: 33%;
+  background: green;
+}
+
+.right {
+  width: 33%;
+  background: yellow;
+}
+
+.footer {
+  background: darkgrey;
+  text: white;
+  height: 80px;
+}
