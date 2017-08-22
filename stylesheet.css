@@ -1,11 +1,70 @@
 html, body {
-  margin: 0;
-  font-family: helvetica;
+  font-family: 'Open Sans', sans-serif;
   font-weight: normal;
-  font-style: normal
+  font-style: normal;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
 }
 
-a:link {
+.main-header {
+  background-image: url("header-bg.jpg");
+  background-position: center center;
+}
+
+.menu {
+  background: rgba(0,0,0,0.1);
+  box-shadow: 0px -10px 50px 0px rgba(0,0,0,1);
+}
+
+.menu > ul,
+.menu > ul > li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu > ul > li,
+.menu > ul > li > a {
+  display: inline-block;
+}
+
+.menu > ul {
+  text-align: center;
+}
+
+.menu > ul > li > a {
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.menu > ul > li > a:hover {
+  padding: 10px;
+  color: #333;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  background: rgba(255,255,255,0);
+}
+
+.ix_header {
+  height: 55%;
+  width: 20%;
+  display: block;
+  margin: auto;
+  padding: 10px;
+  margin-top: 35px;
+}
+
+.header-text {
+  ffont-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 35px;
+}
+/*a:link {
   font-family: Lato, sans-serif;
   color: black;
   text-decoration: none;
@@ -23,22 +82,14 @@ a:visited {
   text-decoration: none
 }
 
-.wrapper {
-  /*display: flex;
-  flex-direction: column;*/
-}
-
 .container {
   display: flex;
 }
 
 .child {
-  width: 100%;  /* Or whatever */*/
-  /*height: 100px; /* Or whatever */*/
-  margin: auto;  /* Magic! */
+  width: 100%;
+  margin: auto;
   border: 1px solid black;
-
-  /*box-sizing: border-box;*/
   text-align: center;
 }
 
@@ -48,7 +99,6 @@ header.main {
 }
 
 .content {
-  /*flex: 1;*/
   overflow: auto;
   background: white;
   text: black;
@@ -57,13 +107,11 @@ header.main {
 .roundimg {
   border-radius: 50%;
   border: 1px solid black;
-}
+}*/
 
-.ix_header {
-  height: 55%;
-  width: 20%;
-}
 
+
+/*
 .menu {
   text-align: right;
   font-family: Lato, sans-serif;
@@ -98,4 +146,4 @@ header.main {
   background: darkgrey;
   text: white;
   height: 80px;
-}
+}*/
